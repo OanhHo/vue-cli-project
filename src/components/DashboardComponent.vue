@@ -21,6 +21,9 @@
                         </div>
                     </div>
                 </div>
+                <div>
+                    <FormComponent/>
+                </div>
                 <!-- ============================================================== -->
                 <!-- end pageheader  -->
                 <!-- ============================================================== -->
@@ -30,8 +33,11 @@
 </template>
 
 <script>
+import FormComponent from './FormComponent'
 export default {
-    
+    components: {
+        FormComponent
+    }
 }
 </script>
 

@@ -2,6 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import i18n from './i18n'
 import vSelect from 'vue-select'
+import './vee-validate'
 
 Vue.config.productionTip = false
 
